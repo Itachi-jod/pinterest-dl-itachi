@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
 });
 
 // PINTEREST DOWNLOADER
-app.get("/api/pin", async (req, res) => {
+app.get("/api/download", async (req, res) => {
   const pinUrl = req.query.url;
 
   if (!pinUrl) {
