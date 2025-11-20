@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
     status: "online",
     message: "Pinterest Downloader API by Itachi",
     endpoint: "/download?url=",
-    author: "Lord Itachi"
+    author: "Itachi Sensei"
   });
 });
 
